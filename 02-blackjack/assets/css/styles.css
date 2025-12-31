@@ -1,0 +1,30 @@
+html, body {
+    margin: 0px;
+    background-color: #ced4da;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 25px;
+    font-size: 1.5rem;
+}
+
+.carta {
+    position: relative;
+    width: 250px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+.player {
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+#player-cards, #computer-cards {
+    height: 240px;
+    ;
+} 
