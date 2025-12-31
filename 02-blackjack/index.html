@@ -19,15 +19,15 @@
     <div class="row mt-2">
         <div id="divButtons" class="col text-center">
             <button id="btnNuevo" type="button" class="btn btn-primary">Nuevo Juego</button>
-            <button id="btnPedir" type="button" class="btn btn-success">Pedir Carta</button>
-            <button id="btnDetener" type="button" class="btn btn-success">Detener</button>
+            <button id="btnPedir" disabled="true" type="button" class="btn btn-success">Pedir Carta</button>
+            <button id="btnDetener" disabled="true" type="button" class="btn btn-success">Detener</button>
         </div>
     </div>
 
     <div class="row container">
         <div class="col">
             <h2 class="player">Jugador - <small id="acumuladoJugador">0</small></h2>
-            <div id="jugadorCartas">
+            <div id="jugadorCartas" class="divCartasJugadores">
                 <!-- <img src="assets/cartas/10C.png" alt="Imagen Carta" class="carta"> -->
                 <!-- <img src="assets/cartas/10C.png" alt="Imagen Carta" class="carta"> -->
                 <!-- <img src="assets/cartas/10C.png" alt="Imagen Carta" class="carta"> -->
@@ -38,7 +38,7 @@
     <div class="row container mt-2">
         <div class="col">
             <h2 class="player">Computadora - <small>0</small></h2>
-            <div id="computadoraCartas">
+            <div id="computadoraCartas" class="divCartasJugadores">
                 <!-- <img src="assets/cartas/10C.png" alt="Imagen Carta" class="carta"> -->
                 <!-- <img src="assets/cartas/10C.png" alt="Imagen Carta" class="carta"> -->
                 <!-- <img src="assets/cartas/10C.png" alt="Imagen Carta" class="carta"> -->
